@@ -14,6 +14,7 @@ module Cable
 
     getter socket
     getter id : String
+    getter request : HTTP::Request
 
     def identifier
       ""
